@@ -32,7 +32,7 @@ export default function Home() {
         m={{ xs: '1.5rem', sm: '1.25rem', md: '2.25rem' }}
         // mt={{ xs: '1.5rem', sm: '1.25rem', md: '-2.25rem' }}
       />
-      <Box m>
+      <Box>
         <h1>
           <strong>Hi, I'm </strong>
           <span
