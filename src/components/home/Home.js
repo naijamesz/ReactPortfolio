@@ -12,8 +12,8 @@ export default function Home() {
     <Box
       component={'main'}
       display={'flex'}
-      flexDirection={{ xs: 'column', sm: 'row' }}
-      // gap={'1rem'}
+      flexDirection={{ xs: 'column', sm: 'column', md: 'row', lg: 'row' }}
+      gap={'1rem'}
       alignItems={'center'}
       justifyContent={'center'}
       minHeight={'calc(100vh - 190px)'}>
@@ -25,16 +25,14 @@ export default function Home() {
         src={me}
         width={{ xs: '22vh', sm: '26vh', md: '28vh', lg: '32vh' }}
         height={{ xs: '22vh', sm: '26vh', md: '28vh', lg: '32vh' }}
-        // borderRadius={'55%'}
         borderRadius={'50%'}
-        // border={'5px solid #fff'}
         // p={'0.25rem'}
-        m={{ xs: '1.5rem', sm: '1.25rem', md: '2.25rem' }}
-        // mt={{ xs: '1.5rem', sm: '1.25rem', md: '-2.25rem' }}
+        mb={{ xs: '3rem', md: '1rem' }}
+        mr={{ xs: '0rem', md: '2rem' }}
       />
       <Box>
-        <h1>
-          <strong>Hi, I'm </strong>
+        <h1 className={Style.name}>
+          Hi, I'm{' '}
           <span
             style={{
               background: info.gradient,
@@ -45,7 +43,7 @@ export default function Home() {
           </span>
           <span className={Style.hand}>🤘🏻</span>
         </h1>
-        <h2>I'm {info.position}.</h2>
+        <h2 className={Style.title}>I'm {info.position}.</h2>
         <Box component={'ul'} m={'1rem 1rem'}>
           {info.miniBio.map((bio, index) => (
             <EmojiBullet className='li' key={index} emoji={bio.emoji} text={bio.text} />
@@ -64,4 +62,3 @@ export default function Home() {
     </Box>
   );
 }
-
