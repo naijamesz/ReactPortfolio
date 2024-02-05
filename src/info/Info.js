@@ -1,14 +1,17 @@
 import self from '../img/self.png';
-import mock1 from '../img/mock1-.png';
-import mock2 from '../img/mock2-.png';
-import mock3 from '../img/mock3-.png';
-import mock4 from '../img/mock4-.png';
-import mock5 from '../img/mock5-.png';
-import mock6 from '../img/mock6-.png';
-import mock7 from '../img/mock7-.png';
-import mock8 from '../img/mock8-.png';
-import mock9 from '../img/mock9-.png';
-import mock10 from '../img/mock10-.png';
+import mock1 from '../img/mock1.png';
+import mock2 from '../img/mock2.png';
+import mock3 from '../img/mock3.png';
+import mock4 from '../img/mock4.png';
+import mock5 from '../img/mock5.png';
+import mock6 from '../img/mock6.png';
+import mock7 from '../img/mock7.png';
+import mock8 from '../img/mock8.png';
+import mock9 from '../img/mock9.png';
+import mock10 from '../img/mock10.png';
+import mock11 from '../img/mock11.png';
+import mock12 from '../img/mock12.png';
+import mock13 from '../img/mock13.png';
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -143,63 +146,81 @@ export const info = {
     // This is where your portfolio projects will be detailed
     {
       title: 'Project 1',
-      live: 'https://naijamesz-portfolio-port.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: 'https://github.com/naijamesz/ReactPortfolio', // this should be a link to the **repository** of the project, where the code is hosted.
+      live: 'https://github-finder-beta-pied-50.vercel.app',
+      source: 'https://github.com/naijamesz/github-finder',
       image: mock1
     },
     {
       title: 'Project 2',
-      live: 'https://word-analytics-six.vercel.app',
-      source: 'https://github.com/naijamesz/word-analytics',
+      live: 'https://naijamesz-portfolio-port.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/naijamesz/ReactPortfolio', // this should be a link to the **repository** of the project, where the code is hosted.
       image: mock2
     },
     {
       title: 'Project 3',
-      live: 'https://best-seller-book-react.vercel.app',
-      source: 'https://github.com/naijamesz/Best-seller-book-react',
+      live: 'https://word-analytics-six.vercel.app',
+      source: 'https://github.com/naijamesz/word-analytics',
       image: mock3
     },
     {
       title: 'Project 4',
-      live: 'https://github.com/naijamesz/travel-site',
-      source: 'https://travel-site-naijamesz.netlify.app',
+      live: 'https://cryptobucks-practice.vercel.app',
+      source: 'https://github.com/naijamesz/cryptobucks-practice',
       image: mock4
     },
     {
       title: 'Project 5',
-      live: 'https://react-tailwind-shoes-shop.vercel.app',
-      source: 'https://github.com/naijamesz/react-tailwind-shoes-shop',
+      live: 'https://best-seller-book-react.vercel.app',
+      source: 'https://github.com/naijamesz/Best-seller-book-react',
       image: mock5
     },
     {
       title: 'Project 6',
-      live: 'https://ecommerce-product-page-for-fem.vercel.app',
-      source: 'https://github.com/naijamesz/FEM-ecommerce-product-page',
+      live: 'https://github.com/naijamesz/travel-site',
+      source: 'https://travel-site-naijamesz.netlify.app',
       image: mock6
     },
     {
       title: 'Project 7',
-      live: 'https://reading-list-client-crud.vercel.app',
-      source: 'https://github.com/naijamesz/reading-list-client-crud',
+      live: 'https://react-tailwind-shoes-shop.vercel.app',
+      source: 'https://github.com/naijamesz/react-tailwind-shoes-shop',
       image: mock7
     },
     {
       title: 'Project 8',
-      live: 'https://fem-testimonial-tailwind-css-nuuu.vercel.app',
-      source: 'https://github.com/naijamesz/FEM-testimonial-tailwind-css',
+      live: 'https://ai-code-translator-six-mu.vercel.app',
+      source: 'https://github.com/naijamesz',
       image: mock8
     },
     {
       title: 'Project 9',
-      live: 'https://naijamesz.github.io/analog-clocks/',
-      source: 'https://github.com/naijamesz/analog-clocksl',
+      live: 'https://ecommerce-product-page-for-fem.vercel.app',
+      source: 'https://github.com/naijamesz/FEM-ecommerce-product-page',
       image: mock9
     },
     {
       title: 'Project 10',
+      live: 'https://reading-list-client-crud.vercel.app',
+      source: 'https://github.com/naijamesz/reading-list-client-crud',
+      image: mock10
+    },
+    {
+      title: 'Project 11',
+      live: 'https://fem-testimonial-tailwind-css-nuuu.vercel.app',
+      source: 'https://github.com/naijamesz/FEM-testimonial-tailwind-css',
+      image: mock11
+    },
+    {
+      title: 'Project 12',
+      live: 'https://naijamesz.github.io/analog-clocks/',
+      source: 'https://github.com/naijamesz/analog-clocksl',
+      image: mock12
+    },
+    {
+      title: 'Project 13',
       live: 'https://github.com/naijamesz/React-BMI-calc-oldproject',
       source: 'https://react-bmi-calc-oldproject.vercel.app',
-      image: mock10
+      image: mock13
     }
   ]
 };
