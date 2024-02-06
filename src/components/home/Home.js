@@ -23,21 +23,22 @@ export default function Home() {
         style={{ background: info.gradient }}
         component={'img'}
         src={me}
-        width={{ xs: '22vh', sm: '26vh', md: '28vh', lg: '32vh' }}
-        height={{ xs: '22vh', sm: '26vh', md: '28vh', lg: '32vh' }}
+        width={{ xs: '22vh', sm: '26vh', md: '32vh', lg: '36vh' }}
+        height={{ xs: '22vh', sm: '26vh', md: '32vh', lg: '36vh' }}
         borderRadius={'50%'}
         // p={'0.25rem'}
-        mb={{ xs: '3rem', md: '1rem' }}
-        mr={{ xs: '0rem', md: '2rem' }}
+        mt={{ xs: '2.5rem', md: '0rem', lg: '0rem' }}
+        mb={{ xs: '2.5rem', md: '0rem', lg: '0rem' }}
+        mr={{ xs: '0rem', md: '2.5rem', lg: '2.5rem' }}
       />
-      <Box>
+      <Box m={{ xs: '0.25rem', md: '0rem' }}>
         <h1 className={Style.name}>
           Hi, I'm{' '}
           <span
             style={{
               background: info.gradient,
               WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
+              WebkitTextFillColor: 'transparent'
             }}>
             {info.firstName + info.lastName}
           </span>
