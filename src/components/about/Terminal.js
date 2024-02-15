@@ -12,26 +12,22 @@ function Terminal(props) {
     <Box
       component={'section'}
       className={classNames(Style.terminal, Style.shadowed)}
-      width={{ xs: '95%', sm: '85%', md: '65%' }}
+      width={{ xs: '98%', sm: '85%', md: '65%' }}
       borderRadius={'1.5rem'}
       m={'2rem 0'}>
-      <Box
-        sx={{ backgroundColor: '#808080' }}
-        p={'0.5rem'}
-        borderRadius={'0.5rem 0.5rem 0 0'}
-        fontSize={{ xs: '.5rem', sm: '.75rem', md: '1rem' }}>
+      <Box sx={{ backgroundColor: '#808080' }} p={'.25rem'} borderRadius={'0.5rem 0.5rem 0 0'}>
         <i className={classNames(iconClass, Style.red)} />
         <i className={classNames(iconClass, Style.amber)} />
         <i className={classNames(iconClass, Style.green)} />
       </Box>
       <Box
-        py={{ xs: '1rem', md: '2rem' }}
-        px={{ xs: '1rem', md: '2rem' }}
+        py={{ xs: '1.25rem', md: '1.25rem' }}
+        px={{ xs: '1.25rem', md: '2.25rem' }}
         borderRadius={'0 0 0.5rem 0.5rem'}
-        sx={{ backgroundColor: '#525252' }}
-        fontSize={{ xs: '0.5rem', sm: '1rem', md: '1.5rem' }}
+        sx={{ backgroundColor: '#3d3d3d' }}
+        border={'2px solid #808080'}
         fontFamily={'Menlo'}>
-        {text}
+        <p style={{ fontSize: '1.25rem' }}>{text}</p>
       </Box>
     </Box>
   );

@@ -97,8 +97,8 @@ export const info = {
     // Just change the links so that they lead to your social profiles.
   ],
   bio:
-    `Hi!, my name is James or Thanawat Sanguanporn in my full name, I’m a self-taught Frontend developer from Phuket/Thailand and want to get hire in Web developer career.` +
-    `I have 3 years experience worked in IT support, CCTV and technical networks. After the Covid-19 crisis. I want to changed my own career to developer skill at that time, and now already eager to learn new things from technology updates and news. And all ready to be part or collaborate of a team and collaborate using Git version control to embrace new technological updates and enhance my development career. I believe that using open source or even contribute it can greatly improve your skills and experience as a web developer, and artificial intelligence is a tool for developers like us.` +
+    `Hi!, my name is James or Thanawat Sanguanporn in my full name, I’m a self-taught Frontend developer based in Phuket/Thailand and want to get hire in Web developer career.` +
+    `I have 3 years of experience in IT support and technical networks. Post the Covid-19 crisis, they shifted their career towards development. They are eager to learn new technologies, ready to work in a team, and use Git for collaboration. They believe in contributing to open source for skill enhancement and see artificial intelligence as a valuable tool for developers. ` +
     `"Never stop learning & Never stop practice coding."`,
   skills: {
     proficientWith: [
@@ -224,3 +224,5 @@ export const info = {
     }
   ]
 };
+
+/* 3 years experience worked in IT support, CCTV and technical networks. After the Covid-19 crisis. I want to changed my own career to developer skill at that time, and now already eager to learn new things from technology updates and news. And all ready to be part or collaborate of a team and collaborate using Git version control to embrace new technological updates and enhance my development career. I believe that using open source or even contribute it can greatly improve your skills and experience as a web developer, and artificial intelligence is a tool for developers like us. */

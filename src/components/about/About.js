@@ -3,6 +3,7 @@ import Style from './About.module.scss';
 import Terminal from './Terminal';
 import { Box } from '@mui/material';
 import { info } from '../../info/Info';
+import styles from './Terminal.module.scss';
 
 export default function About() {
   const firstName = info.firstName.toLowerCase();
@@ -10,18 +11,18 @@ export default function About() {
   function aboutMeText() {
     return (
       <>
-        <p>
+        <p style={{ fontSize: '1rem' }}>
           <span style={{ color: info.baseColor }}>
             {firstName}
             {info.lastName.toLowerCase()} $
           </span>{' '}
           cat about {firstName}{' '}
         </p>
-        <p>
+        <p style={{ fontSize: '1rem' }}>
           <span style={{ color: info.baseColor }}>
             about {firstName} <span className={Style.green}>(main)</span> ${' '}
           </span>
-          {info.bio}
+          <p style={{ fontSize: '1rem', lineHeight: '1.75rem' }}>{info.bio}</p>
         </p>
       </>
     );
@@ -30,26 +31,26 @@ export default function About() {
   function skillsText() {
     return (
       <>
-        <p>
+        <p style={{ fontSize: '1rem' }}>
           <span style={{ color: info.baseColor }}>
             {info.firstName.toLowerCase()}
             {info.lastName.toLowerCase()} $
           </span>{' '}
           cd skills/tools
         </p>
-        <p>
+        <p style={{ fontSize: '1rem' }}>
           <span style={{ color: info.baseColor }}>
             skills/tools <span className={Style.green}>(main)</span> $
           </span>{' '}
           ls
         </p>
-        <p style={{ color: info.baseColor }}> Proficient With</p>
+        <p style={{ color: info.baseColor, fontSize: '1rem' }}> Proficient With</p>
         <ul className={Style.skills}>
           {info.skills.proficientWith.map((proficiency, index) => (
             <li key={index}>{proficiency}</li>
           ))}
         </ul>
-        <p style={{ color: info.baseColor }}> tools</p>
+        <p style={{ color: info.baseColor, fontSize: '1rem' }}> tools</p>
         <ul className={Style.skills}>
           {info.skills.tools.map((skill, index) => (
             <li key={index}>{skill}</li>
@@ -62,14 +63,14 @@ export default function About() {
   function miscText() {
     return (
       <>
-        <p>
+        <p style={{ fontSize: '1rem' }}>
           <span style={{ color: info.baseColor }}>
             {firstName}
             {info.lastName.toLowerCase()} $
           </span>{' '}
           cd hobbies/interests
         </p>
-        <p>
+        <p style={{ fontSize: '1rem' }}>
           <span style={{ color: info.baseColor }}>
             hobbies/interests <span className={Style.green}>(main)</span> $
           </span>{' '}
@@ -78,10 +79,10 @@ export default function About() {
         <ul>
           {info.hobbies.map((hobby, index) => (
             <li key={index}>
-              <Box component={'span'} mr={'1rem'}>
+              <Box component={'span'} ml={'.5rem'} mr={'.5rem'} fontSize={{ xs: '1rem', sm: '1.5rem', md: '1.75rem' }}>
                 {hobby.emoji}
               </Box>
-              {hobby.label}
+              <span style={{ fontSize: '1.25rem' }}>{hobby.label}</span>
             </li>
           ))}
         </ul>
@@ -90,7 +91,7 @@ export default function About() {
   }
 
   return (
-    <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
+    <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'2rem'} ml={'1rem'} mr={'1rem'}>
       <Terminal text={aboutMeText()} />
       <Terminal text={skillsText()} />
       <Terminal text={miscText()} />
