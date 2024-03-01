@@ -158,8 +158,8 @@ export const info = {
     },
     {
       title: 'Project 3',
-      live: 'https://word-analytics-six.vercel.app',
-      source: 'https://github.com/naijamesz/word-analytics',
+      live: 'https://todo-app-frontend-mentor-three.vercel.app/',
+      source: 'https://github.com/naijamesz/Todo-app-frontend-mentor',
       image: mock3
     },
     {

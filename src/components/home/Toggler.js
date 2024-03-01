@@ -6,7 +6,7 @@ export default function Toggler({ darkMode, handleClick }) {
 
   return (
     <Box
-      fontSize={{ xs: '0.75rem', sm: '1.5rem', md: '2rem' }}
+      fontSize={{ xs: '0.75rem', sm: '1.5rem', md: '2.25rem' }}
       sx={{ cursor: 'pointer', ':hover': { transform: 'translateY(-3px)', transition: transition } }}>
       {darkMode ? (
         <span onClick={handleClick} aria-label='Harf Moon' role='img'>
