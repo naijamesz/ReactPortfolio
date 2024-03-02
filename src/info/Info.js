@@ -98,7 +98,7 @@ export const info = {
   ],
   bio:
     `Hi!, my name is James or Thanawat Sanguanporn in my full name, I’m a self-taught Frontend developer based in Phuket/Thailand and want to get hire in Web developer career.` +
-    `I have 3 years of experience in IT support and technical networks. Post the Covid-19 crisis, they shifted their career towards development. They are eager to learn new technologies, ready to work in a team, and use Git for collaboration. They believe in contributing to open source for skill enhancement and see artificial intelligence as a valuable tool for developers. ` +
+    `I have 3 years of experience in IT support and technical networks. Post the COVID-19 crisis, I want to move on to the software development segment because I don't want it's just be hobbies. It made me focus more on developing myself. I'm eager to learn new technologies, ready to work in a team and use Git for collaboration. I believe in contributing to open source for skill enhancement. And I Think artificial intelligence is a valuable tool for developers.` +
     `"Never stop learning & Never stop practice coding."`,
   skills: {
     proficientWith: [
