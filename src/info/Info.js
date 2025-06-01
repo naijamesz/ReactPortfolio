@@ -102,7 +102,6 @@ export const info = {
     `Experienced in server-side development with Node.js (Express.js, Nest.js, Fastify.js) and Django for backend solutions. Familiar with emerging technologies such as Hono.js and Elysia.js within the Bun.js runtime environment.`
     `Strong understanding of network fundamentals from IT support experience and expertise in Git version control for efficient collaboration. Passionate about software architecture and scalable project structures,`
     `actively seeking opportunities to work in team environments and gain hands-on experience with industry-standard development workflows. Eager to explore real-world project lifecycles, stakeholder collaboration, requirements analysis, database design, and problem-solving methodologies.`
-    `Dedicated to continuous learning, professional growth, and staying updated with the latest technological advancements. Ready to contribute to a dynamic team and enhance my development career through collaboration and innovation.`
     `"Never stop learning & Never stop practice coding."`,
   skills: {
     proficientWith: [
